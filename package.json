@@ -1,0 +1,51 @@
+{
+  "name": "xiaoyuer-ui",
+  "private": false,
+  "version": "0.2.0",
+  "type": "module",
+  "files": [
+    "public",
+    "src",
+    "auto-imports.d.ts",
+    "components.d.ts",
+    "index.html",
+    "README.md",
+    "tsconfig.json",
+    "tsconfig.node.json",
+    "vite.config.ts"
+  ],
+  "description": "对elementPlus进行二次封装的组件库",
+  "keywords": [
+    "vue",
+    "element-plus",
+    "ui组件库二次封装"
+  ],
+  "email": "673745069@qq.com",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/node": "^20.10.5",
+    "@vue/composition-api": "^1.7.2",
+    "axios": "^1.6.2",
+    "element-plus": "^2.4.4",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persist": "^1.0.0",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "unplugin-auto-import": "^0.17.2",
+    "unplugin-vue-components": "^0.26.0",
+    "unplugin-vue-markdown": "^0.25.2",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "less": "^4.2.0",
+    "sass": "^1.69.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
